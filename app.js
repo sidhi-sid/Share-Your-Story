@@ -1,11 +1,13 @@
 const path=require('path')
 const express=require ('express')
+const mongoose=require('mongoose')
 const dotenv=require('dotenv')
 const morgan=require('morgan')
 const exphbs=require('express-handlebars')
 const session=require('express-session')
 const connectDB=require('./config/db')
 const passport=require('passport')
+const MongoStore=require('connect-mongo')(session)
 
 dotenv.config({path:'./config/config.env'})
 
@@ -26,7 +28,7 @@ app.use(session({
     secret: 'keyboard cat',
     resave: false,
     saveUninitialized: false,
-    
+    store: new MongoStore({ mongooseConnection: mongoose.connection})
   }))
 
 app.use(passport.initialize())
