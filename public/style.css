@@ -1,7 +1,19 @@
-.login-container{
-    width: 400px;
-    margin-top: 50px;
+.card{
+    width:70%;
     text-align: center;
+    
+}
+.login-container{
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-book-reader{
+    padding-right: 1%;
+}
+.lead{
+    font-size: 1.2em;
 }
 p{
     margin: 10px 0 !important;
@@ -9,10 +21,10 @@ p{
 .fa-small{
     font-size: 16px !important;
 }
-.btn-float{
+/* .btn-float{
     float:left;
     margin-right: 10px;
-}
+} */
 .img-small{
     width:180px;
 }

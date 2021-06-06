@@ -9,7 +9,7 @@ const session = require("express-session");
 const connectDB = require("./config/db");
 const passport = require("passport");
 const MongoStore = require("connect-mongo")(session);
-dotenv.config({ path: path.join(__dirname, ".env") });
+dotenv.config({ path: "./config/config.env" });
 
 require("./config/passport")(passport);
 
