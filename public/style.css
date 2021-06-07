@@ -1,10 +1,9 @@
 .card{
     width:70%;
     text-align: center;
-    
 }
 .login-container{
-    padding-top: 20%;
+    padding-top: 18%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,13 +17,54 @@
 p{
     margin: 10px 0 !important;
 }
-.fa-small{
-    font-size: 16px !important;
+.fa-plus{
+    padding-right: 0.5em;
 }
-/* .btn-float{
+.btn-float{
     float:left;
     margin-right: 10px;
-} */
+}
+.button{
+    float:right;
+    margin: 1% 2% 0 0;
+    font-weight: bolder;
+}
 .img-small{
     width:180px;
+}
+body{
+    background-color: #e3e2df
+}
+.nav-extended{
+    background-color: #9a1750;
+    padding: 0 4em;
+}
+h4{
+    padding-top: 5%;
+    text-align: center;
+}
+.welcome{
+    font-size: large;
+    font-weight: bolder;
+}
+.story{
+    width: 300px;
+    height: 310px;
+}
+.date{
+    font-size: medium;
+    text-align: left;
+}
+.userStory{
+    width: 110%;
+}
+.table{
+    font-size: 1.15em;
+    color: #5d001e;
+}
+.dashboardEdit:before{
+    color: white;
+}
+.table a{
+    color: inherit;
 }
