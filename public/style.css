@@ -33,11 +33,15 @@ p{
     width:180px;
 }
 body{
-    background-color: #ebebeb
+    background-color: #FEFAE0;
 }
 .nav-extended{
-    background-color: #9a1750;
+    background-color: #D4A373;
     padding: 0 4em;
+    font-size: 1.1em;
+}
+.nav-extended li{
+    font-weight: bold;
 }
 h4{
     padding-top: 5%;
@@ -51,6 +55,9 @@ h4{
     width: 300px;
     height: 310px;
 }
+.story .card-content{
+    background-color: #fdf7f7;
+}
 .date{
     font-size: medium;
     text-align: left;
@@ -58,9 +65,11 @@ h4{
 .userStory{
     width: 110%;
 }
+.userStory .card-content{
+     background-color: #FAEDCD;;
+}
 .table{
     font-size: 1.15em;
-    color: #5d001e;
 }
 .dashboardEdit:before{
     color: white;
